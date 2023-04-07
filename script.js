@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-let width = container.offsetWidth
+let width = container.offsetWidth - (2 * parseInt(getComputedStyle(container).borderWidth));
 
 var buttons = document.querySelectorAll(".btn");
 let colorMode = document.getElementById('colorMode');

@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     margin: 40px 0px;
-    margin-left: 170px;
+    margin-left: 210px;
 }
 
 .main {
@@ -130,10 +130,13 @@
 
 .container {
     width: 750px;
+    min-width: 750px;
     height: auto;
     display: flex;
     align-self: center;
     flex-wrap: wrap;
+    border: 5px ridge #CC6B49;
+    border-radius: 5px;
 }
 
 #colorPicker {
